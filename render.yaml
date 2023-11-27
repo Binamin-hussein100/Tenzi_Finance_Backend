@@ -4,3 +4,4 @@
         env: node
         buildCommand: npm install && npm run build
         startCommand: npm start
+        readyCommand: curl --retry-connrefused --retry-seconds 5 --retry-max-time 60 -s http://localhost:$PORT
