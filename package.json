@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start":"node start server",
     "test": "jest",
     "coverage": "jest --coverage",
-    "lint": "npm run lint"
+    "lint": "eslint ."
   },
   "author": "",
   "license": "ISC",
