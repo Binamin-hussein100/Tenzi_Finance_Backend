@@ -34,9 +34,11 @@ jobs:
       - name: Build
         run: npm run build  
 
-      # - name: Deploy to Production
-      #       # if: github.ref == 'refs/heads/main'
-      #       # run: |
-      #         # Deployment steps for the production environment
-      #         # This section executes only when changes are pushed to the main branch
+      - name: Deploy to Production
+            # if: github.ref == 'refs/heads/main'
+            # run: |
+              # Deployment steps for the production environment
+              # This section executes only when changes are pushed to the main branch
+
+# https://tenzi-backend-ajwc.onrender.com/
       
